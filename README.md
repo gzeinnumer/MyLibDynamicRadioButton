@@ -78,6 +78,7 @@ if you want to custom your `RadioButton` use `app:style="@style/radioButtonStyle
     app:style="@style/radioButtonStyle"/>
 ```
 
+#
 - **Content Item** there is 2 type list that you can sent to this `RadioButton`.
 
 **Type 1**
@@ -139,6 +140,7 @@ dynamicRadioButton.setItemList(listObject).setOnCheckedChangeListener(new Dynami
 });
 ```
 
+#
 **Preview** :
 
 | <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example3.jpg"/> |
