@@ -11,15 +11,23 @@
     <a><img src="https://img.shields.io/badge/Version-1.0.0-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
-    <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Kotlin-Suport-green?logo=kotlin&style=flat"></a>
     <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
     <br>
     <p>Simple way to use Dynamic RadioButton</p>
 </div>
 
 ---
+# Content List
+* [Download](#download)
+* [Feature List](#feature-list)
+* [Usage](#usage)
+* [Example Code/App](#example-codeapp)
+* [Version](#version)
+* [Contribution](#contribution)
 
-## Download
+---
+# Download
 Add maven `jitpack.io` and `dependencies` in `build.gradle (Project)` :
 ```gradle
 // build.gradle project
@@ -37,12 +45,14 @@ dependencies {
 }
 ```
 
-## Feature List
+---
+# Feature List
 - [x] [Dynamic RadioButton](#DynamicRadioButton)
 
 ---
+# Usage
 
-## DynamicRadioButton
+### DynamicRadioButton
 
 - Widget on `xml`
 ```xml
@@ -68,7 +78,6 @@ if you want to custom your `RadioButton` use `app:style="@style/radioButtonStyle
     app:style="@style/radioButtonStyle"/>
 ```
 
-#
 - **Content Item** there is 2 type list that you can sent to this `RadioButton`.
 
 **Type 1**
@@ -88,7 +97,7 @@ dynamicRadioButton.setItemList(listString).setOnCheckedChangeListener(new Dynami
     }
 });
 ```
-#
+
 **Type 2** for this type you should override function `toString()` in your `model pojo`
 ```java
 public class ExampleModel {
@@ -129,7 +138,6 @@ dynamicRadioButton.setItemList(listObject).setOnCheckedChangeListener(new Dynami
     }
 });
 ```
-#
 
 **Preview** :
 
@@ -146,19 +154,20 @@ dynamicRadioButton.setItemList(listObject).setOnCheckedChangeListener(new Dynami
 |  Output data `Model Pojo`|
 
 ---
+# Example Code/App
 
 **FullCode [MainActivity](https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/app/src/main/java/com/gzeinnumer/mylibdynamicradiobutton/MainActivity.java) & [ExampleModel](https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/app/src/main/java/com/gzeinnumer/mylibdynamicradiobutton/ExampleModel.java) & [XML](https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/app/src/main/res/layout/activity_main.xml)**
 
----
+[Sample Code And App](https://github.com/gzeinnumer/MyLibDynamicRadioButtonExample)
 
-### Version
+---
+# Version
 - **1.0.0**
   - First Release
 
 ---
-
-### Contribution
-You can sent your constibution to `branche` `open-pull`.
+# Contribution
+You can sent your constibution to `branch` `open-pull`.
 
 ---
 
