@@ -167,7 +167,7 @@ dynamicRadioButton.setItemList(listObject).setOnCheckedChangeListener(new Dynami
 
 ---
 # Contribution
-You can sent your constibution to `branche` `open-pull`.
+You can sent your constibution to `branch` `open-pull`.
 
 ---
 
