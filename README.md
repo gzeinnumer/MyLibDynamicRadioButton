@@ -1,5 +1,5 @@
 <h1 align="center">
-  MyLibDynamicCheckBox -> DynamicRadioButton
+  MyLibDynamicRadioButton -> DynamicRadioButton
 </h1>
 
 # I Am Not Using This Library AnyMore
